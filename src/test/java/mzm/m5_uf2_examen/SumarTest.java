@@ -11,6 +11,16 @@ public class SumarTest {
     
    @Test
    public void testSumaValorAbsolut() {
+      M5_UF2_Examen instance = new M5_UF2_Examen();
+      int num1 = 1;
+      int num2 = 2;
+      int expResult = 3;
+      int result = instance.sumar(num1,num2);
+      assertEquals(expResult, result);
+   }
+
+    @Test
+    public void testSumar() {
         M5_UF2_Examen instance = new M5_UF2_Examen();
         int num1 = 1;
         int num2 = 2;
@@ -20,4 +30,6 @@ public class SumarTest {
 
    }
 
+        
+    
 }
