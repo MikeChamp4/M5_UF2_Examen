@@ -21,5 +21,5 @@ public class M5_UF2_ExamenTest {
         int result = instance.getNum1(num1);
         assertEquals(expResult, result);
     }
-    
+
 }
