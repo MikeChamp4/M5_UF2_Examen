@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class SumarTest {
 
     @Test
-    public void testGetNum1() {
+    public void testSumar() {
         System.out.println("getNum1");
         M5_UF2_Examen instance = new M5_UF2_Examen();
         int num1 = 1;
