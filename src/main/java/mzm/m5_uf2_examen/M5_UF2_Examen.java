@@ -8,6 +8,10 @@ public class M5_UF2_Examen {
     public int sumar(int num1, int num2) {
         return num1 + num2;
     }
+
+    public int getNum1(int num1){
+        return num1;
+    }
     
 
     int sumarValorAbsolut(int num1, int num2){
@@ -17,3 +21,4 @@ public class M5_UF2_Examen {
 
 }
 
+        
