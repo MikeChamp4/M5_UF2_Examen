@@ -30,6 +30,17 @@ public class SumarTest {
 
    }
 
+   @Test
+    public void testGetNum1() {
+        M5_UF2_Examen instance = new M5_UF2_Examen();
+
+        int num1 = 1;
+        int num2 = 2;
+
+        int expResult = num1;
+        int result = instance.getNum1(num1);
+        assertEquals(expResult, result);
+    }
         
     
 }
