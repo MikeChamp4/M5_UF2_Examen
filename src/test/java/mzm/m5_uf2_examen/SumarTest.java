@@ -9,5 +9,15 @@ import static org.junit.Assert.*;
 
 public class SumarTest {
     
-   
+   @Test
+   public void testSumaValorAbsolut() {
+        M5_UF2_Examen instance = new M5_UF2_Examen();
+        int num1 = 1;
+        int num2 = 2;
+        int expResult = 3;
+        int result = instance.sumarValorAbsolut(num1,num2);
+        assertEquals(expResult, result);
+
+   }
+
 }
