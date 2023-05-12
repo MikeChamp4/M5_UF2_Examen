@@ -2,10 +2,11 @@ package mzm.m5_uf2_examen;
 
 public class M5_UF2_Examen {
 
-    public int Sumar(int x, int y){
-
-        int z = x + y;
-
-        return z;
+    private int num1;
+    private int num2;
+    
+    public int sumar() {
+        return num1 + num2;
     }
+    
 }
